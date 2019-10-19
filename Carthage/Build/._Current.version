@@ -1,0 +1,19 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "7c58c9f23f10905ab1c5be9ac30239d955bc0a48",
+  "iOS" : [
+    {
+      "name" : "BKPlacePicker",
+      "hash" : "6cb03fe8161706a600de721d0b36f8515ce731d422b36b548c2e2e69d9bedb66",
+      "swiftToolchainVersion" : "5.1 (swiftlang-1100.0.270.13 clang-1100.0.33.7)"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+framework module BKPlacePicker {
+  umbrella header "BKPlacePicker.h"
+
+  export *
+  module * { export * }
+}
+
+module BKPlacePicker.Swift {
+    header "BKPlacePicker-Swift.h"
+    requires objc
+}
