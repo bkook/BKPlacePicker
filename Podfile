@@ -6,6 +6,8 @@ target 'BKPlacePicker' do
   use_frameworks!
 
   # Pods for BKPlacePicker
+  pod 'GoogleMaps'
+  pod 'GooglePlaces'
 
   target 'BKPlacePickerTests' do
     # Pods for testing

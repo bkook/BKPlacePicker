@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C5C9B7D541C98C5F00AE507 /* Pods_BKPlacePicker_BKPlacePickerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2579A3BF625068B8C3AC91DE /* Pods_BKPlacePicker_BKPlacePickerTests.framework */; };
+		8F3F8913035BD6953E4524F0 /* Pods_BKPlacePicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AA448BA5096E7BE4D1FB219 /* Pods_BKPlacePicker.framework */; };
 		DF30714D235B39D70042CDDE /* BKPlacePicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF307143235B39D70042CDDE /* BKPlacePicker.framework */; };
 		DF307152235B39D70042CDDE /* BKPlacePickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF307151235B39D70042CDDE /* BKPlacePickerTests.swift */; };
 		DF307154235B39D70042CDDE /* BKPlacePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = DF307146235B39D70042CDDE /* BKPlacePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -24,6 +26,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2579A3BF625068B8C3AC91DE /* Pods_BKPlacePicker_BKPlacePickerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BKPlacePicker_BKPlacePickerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3229A531086C5125F197747F /* Pods-BKPlacePicker-BKPlacePickerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BKPlacePicker-BKPlacePickerTests.release.xcconfig"; path = "Target Support Files/Pods-BKPlacePicker-BKPlacePickerTests/Pods-BKPlacePicker-BKPlacePickerTests.release.xcconfig"; sourceTree = "<group>"; };
+		3AA448BA5096E7BE4D1FB219 /* Pods_BKPlacePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BKPlacePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D779E18B670446B2BB981D0 /* Pods-BKPlacePicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BKPlacePicker.release.xcconfig"; path = "Target Support Files/Pods-BKPlacePicker/Pods-BKPlacePicker.release.xcconfig"; sourceTree = "<group>"; };
+		990E832C53A12241B0185795 /* Pods-BKPlacePicker-BKPlacePickerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BKPlacePicker-BKPlacePickerTests.debug.xcconfig"; path = "Target Support Files/Pods-BKPlacePicker-BKPlacePickerTests/Pods-BKPlacePicker-BKPlacePickerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D4D94C668C3E1F51FA5CACC2 /* Pods-BKPlacePicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BKPlacePicker.debug.xcconfig"; path = "Target Support Files/Pods-BKPlacePicker/Pods-BKPlacePicker.debug.xcconfig"; sourceTree = "<group>"; };
 		DF307143235B39D70042CDDE /* BKPlacePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BKPlacePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF307146235B39D70042CDDE /* BKPlacePicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BKPlacePicker.h; sourceTree = "<group>"; };
 		DF307147235B39D70042CDDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -38,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F3F8913035BD6953E4524F0 /* Pods_BKPlacePicker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,18 +55,33 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF30714D235B39D70042CDDE /* BKPlacePicker.framework in Frameworks */,
+				1C5C9B7D541C98C5F00AE507 /* Pods_BKPlacePicker_BKPlacePickerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C127FF5E2295F7E75A2A72BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D4D94C668C3E1F51FA5CACC2 /* Pods-BKPlacePicker.debug.xcconfig */,
+				8D779E18B670446B2BB981D0 /* Pods-BKPlacePicker.release.xcconfig */,
+				990E832C53A12241B0185795 /* Pods-BKPlacePicker-BKPlacePickerTests.debug.xcconfig */,
+				3229A531086C5125F197747F /* Pods-BKPlacePicker-BKPlacePickerTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DF307139235B39D70042CDDE = {
 			isa = PBXGroup;
 			children = (
 				DF307145235B39D70042CDDE /* BKPlacePicker */,
 				DF307150235B39D70042CDDE /* BKPlacePickerTests */,
 				DF307144235B39D70042CDDE /* Products */,
+				C127FF5E2295F7E75A2A72BE /* Pods */,
+				FB268200873F7BD0CB2489D6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -89,6 +113,15 @@
 			path = BKPlacePickerTests;
 			sourceTree = "<group>";
 		};
+		FB268200873F7BD0CB2489D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3AA448BA5096E7BE4D1FB219 /* Pods_BKPlacePicker.framework */,
+				2579A3BF625068B8C3AC91DE /* Pods_BKPlacePicker_BKPlacePickerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -107,10 +140,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF307157235B39D70042CDDE /* Build configuration list for PBXNativeTarget "BKPlacePicker" */;
 			buildPhases = (
+				EE53BDF493CDD34B2724CC8F /* [CP] Check Pods Manifest.lock */,
 				DF30713E235B39D70042CDDE /* Headers */,
 				DF30713F235B39D70042CDDE /* Sources */,
 				DF307140235B39D70042CDDE /* Frameworks */,
 				DF307141235B39D70042CDDE /* Resources */,
+				8DB90BD261F9346A9D9DB63B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,9 +160,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF30715A235B39D70042CDDE /* Build configuration list for PBXNativeTarget "BKPlacePickerTests" */;
 			buildPhases = (
+				32E1D987D001DAA773D33698 /* [CP] Check Pods Manifest.lock */,
 				DF307148235B39D70042CDDE /* Sources */,
 				DF307149235B39D70042CDDE /* Frameworks */,
 				DF30714A235B39D70042CDDE /* Resources */,
+				31084BC1DF15D6862CB4054D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +230,87 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31084BC1DF15D6862CB4054D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BKPlacePicker-BKPlacePickerTests/Pods-BKPlacePicker-BKPlacePickerTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BKPlacePicker-BKPlacePickerTests/Pods-BKPlacePicker-BKPlacePickerTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BKPlacePicker-BKPlacePickerTests/Pods-BKPlacePicker-BKPlacePickerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32E1D987D001DAA773D33698 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BKPlacePicker-BKPlacePickerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DB90BD261F9346A9D9DB63B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BKPlacePicker/Pods-BKPlacePicker-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BKPlacePicker/Pods-BKPlacePicker-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BKPlacePicker/Pods-BKPlacePicker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE53BDF493CDD34B2724CC8F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BKPlacePicker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DF30713F235B39D70042CDDE /* Sources */ = {
@@ -344,6 +462,7 @@
 		};
 		DF307158235B39D70042CDDE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4D94C668C3E1F51FA5CACC2 /* Pods-BKPlacePicker.debug.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_MODULES = YES;
@@ -370,6 +489,7 @@
 		};
 		DF307159235B39D70042CDDE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D779E18B670446B2BB981D0 /* Pods-BKPlacePicker.release.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_MODULES = YES;
@@ -395,6 +515,7 @@
 		};
 		DF30715B235B39D70042CDDE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 990E832C53A12241B0185795 /* Pods-BKPlacePicker-BKPlacePickerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -413,6 +534,7 @@
 		};
 		DF30715C235B39D70042CDDE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3229A531086C5125F197747F /* Pods-BKPlacePicker-BKPlacePickerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
